@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜드로버</title>
+    <style>
+        /* header의 css */
+        header{
+            width: 1100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #logo{
+            display: inline-block;
+            width: 130px;
+            height: 70px;
+            margin: 10px 30px;
+        }
+        nav{
+            display: inline-block;
+            width: 740px;
+            height: 30px;
+            margin: 30px 30px;
+            text-align: right;
+        }
+        nav li{
+            display: inline-block;
+            margin-right: 50px;
+            font-weight: bold;
+
+        }
+        #slider{
+            width: 1100px;
+            height: 450px;
+            background: url(./img/genesis.jpg) no-repeat center/cover;
+        }
+        section{
+            width: 1100px;
+            height: 280px;
+            display: flex;
+            justify-content: space-between;
+        }
+        article{
+            display:inline-block;
+            width: 340px;
+            height: 145px;
+            margin: 50px 10px;
+        }
+        h3{
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        h4{margin: 0; font-size: 14px;}
+        #art1 > .row1 > div > p{font-size: 12px; color: rgb(58, 58, 58);}
+        #art1 .row1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .des{margin-left: 10px;}
+        #art2 > img{
+            width:302px
+        }
+        .art3_flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        .item{
+            width: 80px;
+            font-size: 12px;
+        }
+        .item > img {
+            width: 40px;
+        }
+        .item > p{margin: 0;}
+        footer{
+            width: 1100px;
+            height: 100px;
+            background-color: #e8e8e8;
+            display: flex;
+            align-items: center;
+        }
+         footer img{
+            display: inline-block;
+            width: 130px;
+            height: 70px;
+            margin: 10px 30px;
+         }
+          footer > p{font-size: 12px; color: gray;}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./img/logo.jpg" alt="logo" id="logo">
+       <nav>
+            <ul>
+                <li>VEHICLES</li>
+                <li>PRICE</li>
+                <li>OFFERS</li>
+                <li>SECONDHSND CAR</li>
+            </ul>
+       </nav>
+    </header>
+    <div id="slider">
+    </div>
+    <section>
+        <article id="art1">
+            <h3>NEWS</h3>
+            <div class="row1">
+                <div><img src="./img/4.jpg" alt="car"></div>
+                <div class="des">
+                    <h4>Discovery 5</h4>
+                    <p>랜드로버가 만든 정통 SUV, 디스커버리의 신형 모델이 다음 달 공개된다.</p>
+                </div>
+            </div>
+        </article>
+        <article id="art2">
+            <h3>랜드로버 모델 살펴보기</h3>
+            <img src="./img/8.jpg" alt="car">
+        </article>
+        <article id="art3">
+            <h3>고객지원</h3>
+            <div class="art3_flex">
+                <div class="item">
+                    <img src="./img/icon3.jpg" alt="icon">
+                    <p>시승신청</p>
+                </div>
+                <div class="item">
+                     <img src="./img/icon4.jpg" alt="icon">
+                     <p>뉴스레터 신청</p>
+                </div>
+                <div class="item">
+                     <img src="./img/icon5.jpg" alt="icon">
+                     <p>전시장 찾기</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <img src="./img/logo2.jpg" alt="logo">
+       <p>Jaguar Land Rover Limited: Registered office: Abbey Road, Whitley, Coventry CV3 4LF. Registered in England No:
+1672070</p>
+    </footer>
+</body>
+</html>
